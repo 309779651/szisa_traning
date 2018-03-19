@@ -8,12 +8,12 @@ public class GuessNumber {
 	public static void main(String[] args) {
 			int b = (int) (Math.random() * 1000);
 			Scanner input = new Scanner(System.in);
-			System.out.println("请输入1个1000以内的数字：");
+			System.out.println("请您输入1个1000以内的数字：");
 			int a = input.nextInt();
 			int i = 1;
 			while (a != b && i < 1000) {
 				System.out.println(a > b ? "大了" : "小了");
-				System.out.println("请输入1个1000以内的数字：");
+				System.out.println("请您输入1个1000以内的数字：");
 				a = input.nextInt();
 				i++;
 			}
